@@ -15,8 +15,13 @@ A simple Arch Linux AUR client.
 
 ## Usage:
 
-`pacaur (git clone url)`
+`pacaur (package name)`
 
 ## Removal:
 
 `sudo rm /bin/pacaur`
+
+
+## Update 1:
+
+You now have to use the package name as an argument instead of the git clone url
