@@ -5,6 +5,6 @@ mkdir package
 cd package
 git clone https://aur.archlinux.org/$1.git .
 makepkg -si
-cd ..
-rm -r package
+cd 
+rm -rf package
 cd $startDir
